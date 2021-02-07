@@ -18,7 +18,6 @@ const postFrontmatter = `---
 title: ${postName}
 description: Post Description
 date: ${dayjs().format("MMM DD, YYYY").toString()}
-slug: ${postName.replace(" ", "-").toLowerCase()}
 ---
 `;
 
